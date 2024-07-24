@@ -1,11 +1,4 @@
-function filter_item(item, item_to_filter){
-    if (typeof item == typeof item_to_filter){
-        return true;
-    }
-    return false;
 
-
-}
 
 const removeFromArray = function(array, ...nums) {
     let filtered = array;
